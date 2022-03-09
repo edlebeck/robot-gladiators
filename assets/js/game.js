@@ -74,6 +74,11 @@ for(var i = 0; i < enemyNames.length; i++) {
     window.alert("Welcome to Robot Gladiators! Round " + ( i + 1 ) );
   }
 
+  else {
+    window.alert("You have lost your robot in battle! Game Over!");
+    break;
+  }
+
   // pick new enemy to fight based on the index of enemyNames array
   var pickedEnemyName = enemyNames[i];
 
